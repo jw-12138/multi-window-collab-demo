@@ -164,12 +164,6 @@ function run(timestamp) {
   window.requestAnimationFrame(run)
 }
 
-let mousePoint = ref([0, 0])
-
-window.addEventListener('mousemove', (e) => {
-  mousePoint.value = [e.pageX, e.pageY]
-})
-
 let screenPermissionGranted = ref(false)
 
 async function enableScreenPermission() {
