@@ -7,8 +7,8 @@ This is a extremely simplified version of [@bgstaal](https://github.com/bgstaal)
 
 ### How to run it?
 
-1. `npm i`
-2. `npm run dev`
+1. `bun i`
+2. `bun run dev`
 
 ### Online demo
 
